@@ -1624,7 +1624,7 @@ pre code {
   
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left;
+  float: center;
 }
 .col-xs-12 {
   width: 100%;
@@ -1645,7 +1645,7 @@ pre code {
   width: 58.33333333%;
 }
 .col-xs-6 {
-  width: 50%;
+  width: 30%;
 }
 .col-xs-5 {
   width: 41.66666667%;
@@ -6766,8 +6766,23 @@ button.close {
 .marge {
   margin-left: 60px;
 }
+
 .couleur{
-  background-color: #a94442;
-  text-decoration: white;
+  background-color: black;
+  color: #eee;
+}
+
+.bor-top{
+  width: 100%;
+  
+  border-top: solid 1px;
+}
+
+.form{
+  text-align: center;
+}
+
+li{
+  list-style: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */
